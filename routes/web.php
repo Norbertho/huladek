@@ -31,6 +31,9 @@ Route::get('tudatos-vasarlas', function (){
 Route::get('tippek-trukkok', function (){
     return view('tippek-trukkok');
 });
+Route::get('szelektiv-hulladekgyujtes', function (){
+    return view('szelektiv-hulladekgyujtes');
+});
 Route::middleware([
     'auth:sanctum',
     config('jetstream.auth_session'),

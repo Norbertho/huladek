@@ -143,7 +143,7 @@
            <a href="#" class="block w-full px-4 py-2 text-left text-sm font-bold uppercase text-dark 2xl:text-white hover:text-darkblue" >
             Kreatív galéria
          </a>
-         <a href="#" class="block w-full px-4 py-2 text-left text-sm font-bold uppercase text-dark 2xl:text-white hover:text-darkblue" >
+         <a href="szelektiv-hulladekgyujtes" class="block w-full px-4 py-2 text-left text-sm font-bold uppercase text-dark 2xl:text-white hover:text-darkblue" >
          Szelektív hulladékgyűjtés
        </a>
        <a href="#" class="block w-full px-4 py-2 text-left text-sm font-bold uppercase text-dark 2xl:text-white hover:text-darkblue" >
