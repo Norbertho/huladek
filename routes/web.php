@@ -25,6 +25,9 @@ Route::get('hogyan-elozzuk-meg-a-hulladek-keletkezeset', function (){
 Route::get('elelmiszerpazarlas', function (){
     return view('elelmiszerpazarlas');
 });
+Route::get('tudatos-vasarlas', function (){
+    return view('tudatos-vasarlas');
+});
 Route::middleware([
     'auth:sanctum',
     config('jetstream.auth_session'),
