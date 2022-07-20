@@ -28,6 +28,9 @@ Route::get('elelmiszerpazarlas', function (){
 Route::get('tudatos-vasarlas', function (){
     return view('tudatos-vasarlas');
 });
+Route::get('tippek-trukkok', function (){
+    return view('tippek-trukkok');
+});
 Route::middleware([
     'auth:sanctum',
     config('jetstream.auth_session'),
