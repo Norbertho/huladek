@@ -19,6 +19,9 @@ Route::get('/', function () {
 Route::get('hulladekrol-altalanossagban', function (){
     return view('hulladekrol-altalanossagban');
 });
+Route::get('hogyan-elozzuk-meg-a-hulladek-keletkezeset', function (){
+    return view('hogyan-elozzuk-meg-a-hulladek-keletkezeset');
+});
 Route::middleware([
     'auth:sanctum',
     config('jetstream.auth_session'),
