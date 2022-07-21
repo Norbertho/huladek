@@ -128,22 +128,22 @@
                     A hulladékról általánosságban
                 </a>
  
-                <a href="#" class="block w-full px-4 py-2 text-left text-sm font-bold uppercase text-dark 2xl:text-white hover:text-darkblue" >
+                <a href="hogyan-elozzuk-meg-a-hulladek-keletkezeset" class="block w-full px-4 py-2 text-left text-sm font-bold uppercase text-dark 2xl:text-white hover:text-darkblue" >
                    Hogyan előzhetem meg a hulladék keletkezését?
                 </a>
-                <a href="#" class="block w-full px-4 py-2 text-left text-sm font-bold uppercase text-dark 2xl:text-white hover:text-darkblue" >
+                <a href="elelmiszerpazarlas" class="block w-full px-4 py-2 text-left text-sm font-bold uppercase text-dark 2xl:text-white hover:text-darkblue" >
                   Élelmiszerpazarlás
                </a>
-               <a href="#" class="block w-full px-4 py-2 text-left text-sm font-bold uppercase text-dark 2xl:text-white hover:text-darkblue" >
+               <a href="tudatos-vasarlas" class="block w-full px-4 py-2 text-left text-sm font-bold uppercase text-dark 2xl:text-white hover:text-darkblue" >
                 Tudatos vásárlás, energia és ökocímkék
              </a>
-             <a href="#" class="block w-full px-4 py-2 text-left text-sm font-bold uppercase text-dark 2xl:text-white hover:text-darkblue" >
+             <a href="tippek-trukkok" class="block w-full px-4 py-2 text-left text-sm font-bold uppercase text-dark 2xl:text-white hover:text-darkblue" >
               Háztartási tippek és trükkök
            </a>
            <a href="#" class="block w-full px-4 py-2 text-left text-sm font-bold uppercase text-dark 2xl:text-white hover:text-darkblue" >
             Kreatív galéria
          </a>
-         <a href="#" class="block w-full px-4 py-2 text-left text-sm font-bold uppercase text-dark 2xl:text-white hover:text-darkblue" >
+         <a href="szelektiv-hulladekgyujtes" class="block w-full px-4 py-2 text-left text-sm font-bold uppercase text-dark 2xl:text-white hover:text-darkblue" >
          Szelektív hulladékgyűjtés
        </a>
        <a href="#" class="block w-full px-4 py-2 text-left text-sm font-bold uppercase text-dark 2xl:text-white hover:text-darkblue" >
