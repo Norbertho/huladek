@@ -155,7 +155,7 @@
                   </li>
                   <li>
                     <a
-                      href="javascript:void(0)"
+                      href="aktualitasok"
                       class="text-base font-bold uppercase text-dark 2xl:text-white hover:text-darkblue py-2 2xl:inline-flex flex 2xl:ml-8">
                       Aktualitások
                     </a>

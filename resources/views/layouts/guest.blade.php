@@ -22,7 +22,9 @@
             @include('layouts.navbar')
             {{ $slot }}
         </div>
+        @include('layouts.footer')
         @livewireScripts
     </body>
+    
 
 </html>

@@ -34,6 +34,9 @@ Route::get('tippek-trukkok', function (){
 Route::get('szelektiv-hulladekgyujtes', function (){
     return view('szelektiv-hulladekgyujtes');
 });
+Route::get('aktualitasok', function (){
+    return view('aktualitasok');
+});
 
 
 Route::prefix('gyerekeknek')->group(function () {
