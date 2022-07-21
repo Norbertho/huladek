@@ -2,10 +2,13 @@
 
     <div class="bg-basegreen pt-16 pb-10 rounded-br-full">
         <div class="container mx-auto">
-            <div class="mx-20 text-white text-lg">
+         <h1 class="font-bold text-3xl sm:text-4xl md:text-[40px] text-darkblue mt-6 mb-12">
+            Hulladékról általánosságban
+        </h1>
+            <div class="text-white text-lg">
                 <p class="mb-5">A hulladék keletkezésének megelőzésében a háztartások szerepe egyre jelentősebb. A települési szilárd hulladék megközelítőleg 60%-a háztartásokból származik. A kidobott hulladék közé gyakran értékes és felhasználható termékek is kerülnek (legfőképpen elektronikai cikkek), míg a számunkra értéktelenek keletkezése megelőzhető lenne. Szerencsére van megoldás a problémára.</p>
                 <p class="mb-5">Számtalan lehetőség áll rendelkezésünkre a hulladékhegyek keletkezésének megelőzésére. Egy kis kreativitással, odafigyeléssel és tervezéssel jelentősen csökkenthető a háztartási hulladék mennyisége.</p>
-                <p>A megoldás a „Hulladékról általánosságban” fejezetben bemutatott hulladékhierarchia elemeiben rejlik, kiemelten az újragondolásban (rethink), a csökkentésben (reduce) és az újrafelhasználásban (reuse).</p>
+                <p>A megoldás a „Hulladékról általánosságban” fejezetben bemutatott hulladékhierarchia elemeiben rejlik, kiemelten az újragondolásban <span class="font-bold">(rethink)</span>, a csökkentésben <span class="font-bold">(reduce)</span> és az újrafelhasználásban <span class="font-bold">(reuse)</span>.</p>
             </div>
             
         </div>
@@ -18,9 +21,10 @@
                 <div class="grid grid-cols-2 gap-4 bg-black text-white mt-10 rounded-bl-own">
                     <div class="px-10 py-20">
                         <h2 class="text-2xl font-semibold">
-                            Újragondolás
+                            Újragondolás <br>
+                            <span class="font-semibold text-lg text-basegreen">rethink</span>
                         </h2>
-                        <p class="mt-10">
+                        <p class="mt-10 leading-7">
                             Az újragondolás folyamata a cselekvést megelőző nulladik lépés, ennek ellenére a környezettudatos életmód talán egyik legmeghatározóbb része. A jelenlegi életvitelünk felmérése, a tudatos tervezés és a lehetőségek felmérése mind szerves részét képezik a folyamatnak. Ebben a szakaszban a leggyakrabban felmerülő kérdések: (mindegyikre rövid válasszal)
                         </p>
                     </div>
@@ -32,7 +36,7 @@
                     </div>
                 </div>
 
-                <div class="flex flex-wrap -mx-4">
+                <div class="flex flex-wrap -mx-4 mt-12 mb-12">
                     <div class="w-full px-4 mt-5">
                        <div class="mb-2 flex group">
                           <div class="
@@ -221,9 +225,10 @@
             <div class="grid grid-cols-2 gap-4 bg-black text-white mt-10 mb-5  rounded-bl-own">
                 <div class="px-10 py-20">
                     <h2 class="text-2xl font-semibold">
-                        Csökkentés
+                        Csökkentés<br>
+                        <span class="font-semibold text-lg text-basegreen">reduce</span>
                     </h2>
-                    <p class="mt-10">
+                    <p class="mt-10 leading-7">
                         A csökkentés témakörbe a fogyasztás, felhasználás és hulladéktermelés csökkentése is egyaránt beletartozik. A hulladékképződés csökkentésének a legideálisabb módja, hiszen a később hulladékká váló termék sosem kerül megvásárlásra. A túlfogyasztás elkerülésére számos jó módszer létezik.
                     </p>
                 </div>
@@ -234,7 +239,7 @@
                     />
                 </div>
             </div>
-            <div class="flex flex-wrap -mx-4">
+            <div class="flex flex-wrap -mx-4 mt-12 mb-12">
                 <div class="w-full px-4 mt-1">
                    <div class="mb-2 flex group">
                       <div class="
@@ -260,7 +265,7 @@
                     <div class="w-full items-center justify-center">
                          <p class="text-base leading-relaxed items-center justify-center">
                             <span class="font-bold">
-                                Tudatos vásárlás (link):
+                                Tudatos vásárlás:
                             </span> A vásárlás előre megtervezett módon, a termékek alapos ismerete mellett történik. A környezettudatos vásárlást a termékeken elhelyezett címkék (link) is segítik, amelyek közül a legjelentősebbek egy másik témakörben kerülnek ismertetésre.
                          </p>
                       </div>
@@ -292,7 +297,7 @@
                      <div class="w-full items-center justify-center">
                           <p class="text-base leading-relaxed items-center justify-center">
                              <span class="font-bold">
-                                Élelmiszerpazarlás (link) megelőzése:
+                                Élelmiszerpazarlás  megelőzése:
                              </span>Az élelmiszerpazarlás a hulladéktermelésben és a túlfogyasztásban az egyik legjelentősebb tényező. Jelentősége abból adódik, hogy a nagy mennyiség ellenére az egyik szokásokkal legjobban befolyásolható hulladéktípus.
                           </p>
                        </div>
@@ -511,13 +516,14 @@
             </div>
         </div>
 
-        <div class="pr-0 xl:pr-10">
+        <div class="pr-0 xl:pr-10 mt-20">
             <div class="grid grid-cols-2 gap-4 bg-black text-white mt-10 mb-5  rounded-bl-own">
                 <div class="px-10 py-20">
                     <h2 class="text-2xl font-semibold">
-                        Újrafelhasználás
+                        Újrafelhasználás<br>
+                        <span class="font-semibold text-lg text-basegreen">recycle</span>
                     </h2>
-                    <p class="mt-10">
+                    <p class="mt-10 leading-7">
                         A legtöbb ember idegenkedik a pazarlás gondolatától. A hulladék jelentős része mégis azon termékekből áll, amelyek enyhén sérültek, öregek, elavultak, rútak vagy elvesztették hasznukat számunkra. Az újrafelhasználás első lépése az ezekben a termékekben rejlő lehetőségek felismerése. A termékek az újrafelhasználással tovább képesek ellátni funkciójukat vagy akár teljesen új alkalmazási módot is kaphatnak egy kis átalakítással.
                     </p>
                 </div>
@@ -528,7 +534,7 @@
                     />
                 </div>
             </div>
-            <div class="flex flex-wrap -mx-4">
+            <div class="flex flex-wrap -mx-4 mt-12 mb-12">
                 <div class="w-full px-4 mt-1">
                     <div class="font-bold mb-2">
                         <p>
@@ -679,10 +685,26 @@
                        </div>
                     </div>
                  </div>
-                <div class="my-2 mx-5 mb-10">
-                    <p>
-                        A háztartások tevékenységéből azonban továbbra is származnak olyan hulladékok, amelyek keletkezését nem tudjuk meggátolni, illetve nem tudunk új funkciót adni nekik. Ezek a termékek többnyire újrahasznosíthatók, anyaguk visszanyerhető vagy felhasználhatóak más termék gyártásában. A megfelelő kezelésükhöz ezért elengedhetetlen a szelektív gyűjtésük, amellyel biztosítjuk a termék körkörös életciklusát.
-                    </p>
+                <div class="my-2 mx-5 mb-10 mt-16">
+                  <div class="
+   w-full
+   bg-[#34D399] bg-opacity-[15%]
+   px-7
+   py-8
+   md:p-9
+   rounded-lg
+   shadow-md
+   flex
+   border-l-[6px] border-[#34D399]
+   ">
+
+   <div class="w-full">
+      <p class="text-base leading-7">
+         A háztartások tevékenységéből azonban továbbra is származnak olyan hulladékok, amelyek keletkezését nem tudjuk meggátolni, illetve nem tudunk új funkciót adni nekik. Ezek a termékek többnyire újrahasznosíthatók, anyaguk visszanyerhető vagy felhasználhatóak más termék gyártásában. A megfelelő kezelésükhöz ezért elengedhetetlen a szelektív gyűjtésük, amellyel biztosítjuk a termék körkörös életciklusát.
+      </p>
+   </div>
+</div>
+ 
                 </div>
                  
             </div>

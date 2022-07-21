@@ -32,6 +32,8 @@ background-position: bottom right;">
 </div>
 </div>
 
+
+<div class="w-full mb-32">
 <div class="container mx-auto">
     <div class="flex flex-wrap">
 
@@ -52,10 +54,11 @@ background-position: bottom right;">
             <h2 class="text-2xl font-semibold text-darkblue mt-12 mb-2">
                 Néhány háztartásokban előforduló termék lebomlási ideje:
             </h2>
+            <p>Ide jön még a csúszkás megoldás...............</p>
         </div>
     </div>
 </div>
-
+</div>
 
 
 
