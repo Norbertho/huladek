@@ -14,8 +14,9 @@
                    />
                 </a>
                 <p class="text-base text-[#8890A4] mb-7">
-                   We create digital experiences for brands and companies by using
-                   technology.
+                   Tudatos vásárlás, szelektív hulladékgyűjtés.
+                   <br>
+                   <span class="font-bold">Gyűjts, Hass, Alkoss!</span>
                 </p>
                 <div class="flex items-center -mx-3">
                    <a
@@ -89,11 +90,11 @@
           </div>
           <div class="w-full sm:w-1/2 lg:w-3/12 xl:w-2/12 px-4">
              <div class="w-full mb-10">
-                <h4 class="text-white text-lg font-semibold mb-9">Company</h4>
+                <h4 class="text-white text-lg font-semibold mb-9">Linkek</h4>
                 <ul>
                    <li>
                       <a
-                         href="javascript:void(0)"
+                         href="/tudtad-e"
                          class="
                          inline-block
                          text-base text-[#8890A4]
@@ -102,7 +103,7 @@
                          mb-2
                          "
                          >
-                      About company
+                      Gyerekeknek készült
                       </a>
                    </li>
                    <li>
@@ -116,7 +117,7 @@
                          mb-2
                          "
                          >
-                      Company services
+                      GYIK
                       </a>
                    </li>
                    <li>
@@ -130,7 +131,7 @@
                          mb-2
                          "
                          >
-                      Job opportunities
+                      Egyetem weboldala
                       </a>
                    </li>
                    <li>
@@ -144,141 +145,18 @@
                          mb-2
                          "
                          >
-                      Creative people
+                      Kapcsolat
                       </a>
                    </li>
                 </ul>
              </div>
           </div>
-          <div class="w-full sm:w-1/2 lg:w-3/12 xl:w-2/12 px-4">
-             <div class="w-full mb-10">
-                <h4 class="text-white text-lg font-semibold mb-9">Customer</h4>
-                <ul>
-                   <li>
-                      <a
-                         href="javascript:void(0)"
-                         class="
-                         inline-block
-                         text-base text-[#8890A4]
-                         hover:text-white
-                         leading-loose
-                         mb-2
-                         "
-                         >
-                      Client support
-                      </a>
-                   </li>
-                   <li>
-                      <a
-                         href="javascript:void(0)"
-                         class="
-                         inline-block
-                         text-base text-[#8890A4]
-                         hover:text-white
-                         leading-loose
-                         mb-2
-                         "
-                         >
-                      Latest news
-                      </a>
-                   </li>
-                   <li>
-                      <a
-                         href="javascript:void(0)"
-                         class="
-                         inline-block
-                         text-base text-[#8890A4]
-                         hover:text-white
-                         leading-loose
-                         mb-2
-                         "
-                         >
-                      Company story
-                      </a>
-                   </li>
-                   <li>
-                      <a
-                         href="javascript:void(0)"
-                         class="
-                         inline-block
-                         text-base text-[#8890A4]
-                         hover:text-white
-                         leading-loose
-                         mb-2
-                         "
-                         >
-                      Pricing packages
-                      </a>
-                   </li>
-                </ul>
-             </div>
-          </div>
-          <div class="w-full sm:w-1/2 lg:w-4/12 xl:w-2/12 px-4">
-             <div class="w-full mb-10">
-                <h4 class="text-white text-lg font-semibold mb-9">Additional</h4>
-                <ul>
-                   <li>
-                      <a
-                         href="javascript:void(0)"
-                         class="
-                         inline-block
-                         text-base text-[#8890A4]
-                         hover:text-white
-                         leading-loose
-                         mb-2
-                         "
-                         >
-                      Our story
-                      </a>
-                   </li>
-                   <li>
-                      <a
-                         href="javascript:void(0)"
-                         class="
-                         inline-block
-                         text-base text-[#8890A4]
-                         hover:text-white
-                         leading-loose
-                         mb-2
-                         "
-                         >
-                      Who we are
-                      </a>
-                   </li>
-                   <li>
-                      <a
-                         href="javascript:void(0)"
-                         class="
-                         inline-block
-                         text-base text-[#8890A4]
-                         hover:text-white
-                         leading-loose
-                         mb-2
-                         "
-                         >
-                      Our process
-                      </a>
-                   </li>
-                   <li>
-                      <a
-                         href="javascript:void(0)"
-                         class="
-                         inline-block
-                         text-base text-[#8890A4]
-                         hover:text-white
-                         leading-loose
-                         mb-2
-                         "
-                         >
-                      Latest news
-                      </a>
-                   </li>
-                </ul>
-             </div>
+          <div class="w-full lg:w-6/12 xl:w-4/12 px-4">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10742.169555174925!2d17.6275327!3d47.6933064!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd0538eef80041623!2sSz%C3%A9chenyi%20Istv%C3%A1n%20Egyetem!5e0!3m2!1shu!2shu!4v1658433386299!5m2!1shu!2shu" width="100%" height="220" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
           <div class="w-full md:w-1/2 lg:w-4/12 xl:w-3/12 px-4">
              <div class="w-full mb-10">
-                <h4 class="text-white text-lg font-semibold mb-9">Latest blog</h4>
+                <h4 class="text-white text-lg font-semibold mb-9">Legújabb bejegyzések</h4>
                 <a
                    href="javascript:void(0)"
                    class="flex items-center text-[#8890A4] hover:text-white mb-8"
@@ -290,7 +168,7 @@
                          class="w-full"
                          />
                    </div>
-                   <p class="text-base">I think really important to design...</p>
+                   <p class="text-base">Védjük a környezetet és a jövőnket...</p>
                 </a>
                 <a
                    href="javascript:void(0)"
@@ -303,7 +181,7 @@
                          class="w-full"
                          />
                    </div>
-                   <p class="text-base">Recognizing the need is the primary...</p>
+                   <p class="text-base">Védjük a környezetet és a jövőnket...</p>
                 </a>
              </div>
           </div>
@@ -333,26 +211,20 @@
                          href="javascript:void(0)"
                          class="text-base text-[#8890A4] hover:text-white px-3"
                          >
-                      Privacy policy
+                      Adatkezelési nyilatkozat
                       </a>
                       <a
                          href="javascript:void(0)"
                          class="text-base text-[#8890A4] hover:text-white px-3"
                          >
-                      Legal notice
-                      </a>
-                      <a
-                         href="javascript:void(0)"
-                         class="text-base text-[#8890A4] hover:text-white px-3"
-                         >
-                      Terms of service
+                      Cookie-k használata
                       </a>
                    </div>
                 </div>
              </div>
              <div class="w-full md:w-1/3 lg:w-1/2 px-4">
                 <div class="flex justify-center md:justify-end my-1">
-                   <p class="text-base text-[#8890A4]">&copy; 2025 TailGrids</p>
+                   <p class="text-base text-[#8890A4]">&copy; 2022 Széchenyi Egyetem</p>
                 </div>
              </div>
           </div>
