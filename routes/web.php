@@ -34,6 +34,21 @@ Route::get('tippek-trukkok', function (){
 Route::get('szelektiv-hulladekgyujtes', function (){
     return view('szelektiv-hulladekgyujtes');
 });
+
+
+Route::prefix('gyerekeknek')->group(function () {
+    Route::get('/tudtad-e', function (){
+        return view('gyerekek');
+    });
+    Route::get('/gyakran-ismetelt-kerdesek', function (){
+        return view('gyakran-ismetelt-kerdesek');
+    });
+    Route::get('/kviz', function (){
+        return view('kviz');
+    });
+});
+
+
 Route::middleware([
     'auth:sanctum',
     config('jetstream.auth_session'),

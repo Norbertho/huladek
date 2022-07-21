@@ -143,7 +143,7 @@ class="bg-basegreen w-full flex items-center"
             </li>
             <li>
               <a
-                href="javascript:void(0)"
+                href="gyakran-ismetelt-kerdesek"
                 class="text-base font-bold uppercase text-dark 2xl:text-white hover:text-darkblue py-2 2xl:inline-flex flex 2xl:ml-8">
                Gyakaran ismételt kérdések
               </a>

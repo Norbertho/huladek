@@ -64,7 +64,7 @@
                         Szavatosság megőrzése: (FAGYASZTOS KEP)
                     </h2>
                     <h2 class="text-2xl font-semibold text-darkblue mt-12 mb-2">
-                        Pékárú frissen tartása: 
+                        Pékárú frissen tartása:
                     </h2>
                     <ul class="list-disc ml-5">
                         <li>
