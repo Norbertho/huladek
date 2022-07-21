@@ -55,7 +55,7 @@
                 <ul class="flex flex-wrap justify-center items-center">
                    <li>
                       <a
-                         href="javascript:void(0)"
+                         href="gyerekeknek/tudtad-e"
                          class="
                          py-4
                          px-6
