@@ -1,6 +1,6 @@
 <x-guest-layout>
 
-    <div class="bg-basegreen pt-16 pb-10 rounded-br-full">
+    <div class="bg-basegreen pt-16 pb-10 rounded-bl-own">
         <div class="container mx-auto">
          <h1 class="font-bold text-3xl sm:text-4xl md:text-[40px] text-darkblue mt-6 mb-12">
             Hulladékról általánosságban
