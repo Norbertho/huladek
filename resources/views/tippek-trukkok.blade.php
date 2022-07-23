@@ -1185,10 +1185,10 @@
                 <div class="mx-auto my-auto">
                     <img src="{{ asset('images/tippek/image43-96.jpeg') }}" alt="logo" />
                 </div>
-                
+
             </div>
 
-            
+
 
             <div class="w-full">
                 <div class="pr-0 xl:pr-10">
@@ -1516,6 +1516,124 @@
                         felhasználható élelmiszerhulladékok a következő táblázatban kerültek összefoglalásra:
                     </p>
 
+                    <table
+                        class="border-collapse border border-slate-500 w-full ml-10 mt-2 bg-darkblue rounded-xl komposzt-table">
+                        <thead>
+                            <tr>
+                                <th class="border border-slate-600">Komposztálható</th>
+                                <th class="border border-slate-600">Nem komposztálható</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="border border-slate-700 p-4">
+                                    <img class="rounded-lg" src="{{ asset('images/tippek/image44-98.jpeg') }}">
+                                    Zöldségek és nem déli, kezeletlen gyümölcsök és héjuk
+                                </td>
+                                <td class="border border-slate-700 p-4">Főtt ételmaradékok (rágcsáló- és
+                                    kártevőveszély)</td>
+                            </tr>
+                            <tr>
+                                <td class="border border-slate-700 p-4">
+                                    <img class="rounded-lg" src="{{ asset('images/tippek/image45-100.jpeg') }}">
+                                    Elszáradt (nem beteg) növények
+                                </td>
+                                <td class="border border-slate-700 p-4">
+                                    <img class="rounded-lg" src="{{ asset('images/tippek/image46-102.jpeg') }}">
+                                    Pékárú
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="border border-slate-700 p-4">
+                                    <img class="rounded-lg" src="{{ asset('images/tippek/image47-104.jpeg') }}">
+                                    Tojáshéj
+                                </td>
+                                <td class="border border-slate-700 p-4">
+                                    <img class="rounded-lg" src="{{ asset('images/tippek/image48-106.jpeg') }}">
+                                    Tejtermékek
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="border border-slate-700 p-4">
+                                    <img class="rounded-lg" src="{{ asset('images/tippek/image49-108.jpeg') }}">
+                                    Tea- és kávézacc
+                                </td>
+                                <td class="border border-slate-700 p-4">
+                                    <img class="rounded-lg" src="{{ asset('images/tippek/image50-110.jpeg') }}">
+                                    Csont és hús
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="border border-slate-700 p-4">
+                                    <img class="rounded-lg" src="{{ asset('images/tippek/image51-112.jpeg') }}">
+                                    Virágföld és kis mennyiségben fahamu
+                                </td>
+                                <td class="border border-slate-700 p-4">
+                                    <img class="rounded-lg" src="{{ asset('images/tippek/image52-114-2.jpeg') }}">
+                                    Idegen anyagok, olajok, festékek, vegyszerek
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="border border-slate-700 p-4">Növényevő kisállatok ürüléke</td>
+                                <td class="border border-slate-700 p-4">Húsevő állatok ürüléke</td>
+                            </tr>
+                            <tr>
+                                <td class="border border-slate-700 p-4">
+                                    <img class="rounded-lg" src="{{ asset('images/tippek/image53-116.jpeg') }}">
+                                    Papír (kivéve fényes bevonatú papírok)
+                                </td>
+                                <td class="border border-slate-700 p-4">
+                                    <img class="rounded-lg" src="{{ asset('images/tippek/image54-118.jpeg') }}">
+                                    festett faanyagok
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="border border-slate-700 p-4">
+                                    <img class="rounded-lg" src="{{ asset('images/tippek/image55-120.jpeg') }}">
+                                    Gyapjú-, pamut és lenvászon
+                                </td>
+                                <td class="border border-slate-700 p-4"></td>
+                            </tr>
+                            <tr>
+                                <td class="border border-slate-700 p-4">
+                                    <img class="rounded-lg" src="{{ asset('images/tippek/image56-122.jpeg') }}">
+                                    Falevelek, szalma, ágak
+                                </td>
+                                <td class="border border-slate-700 p-4"></td>
+                            </tr>
+
+                            <tr>
+                                <td class="border border-slate-700 p-4">
+                                    <img class="rounded-lg" src="{{ asset('images/tippek/image57-124.jpeg') }}">
+                                    Levágott fű és kerti gyomok
+                                </td>
+                                <td class="border border-slate-700 p-4">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="border border-slate-700 p-4">
+                                    <img class="rounded-lg" src="{{ asset('images/tippek/image58-126.jpeg') }}">
+                                    Lehullott gyümölcsök
+                                </td>
+                                <td class="border border-slate-700 p-4"></td>
+                            </tr>
+                            <tr>
+                                <td class="border border-slate-700 p-4">
+                                    <img class="rounded-lg" src="{{ asset('images/tippek/image59-128.jpeg') }}">
+                                    Festetlen faanyagok
+                                </td>
+                                <td class="border border-slate-700 p-4"></td>
+                            </tr>
+                            <tr>
+                                <td class="border border-slate-700 p-4">
+                                    <img class="rounded-lg" src="{{ asset('images/tippek/image60-130.jpeg') }}">
+                                    Faforgács és fűrészpor
+                                </td>
+                                <td class="border border-slate-700 p-4"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+
                     <div class="w-full mt-3">
                         <div class="flex group">
                             <div
@@ -1550,6 +1668,17 @@
                         gyorsítja és
                         könnyebben forgathatóvá teszi a komposztot.
                     </p>
+
+                    <div class="grid grid-cols-2 gap-2 ml-10 mt-2">
+                        <div>
+                            <img class="rounded-lg komp-img" src="{{ asset('images/tippek/image61-132-2.jpeg') }}">
+                        </div>
+
+                        <div>
+                            <img class="rounded-lg komp-img" src="{{ asset('images/tippek/image62-134-2.jpeg') }}">
+                        </div>
+                    </div>
+
                     <div class="w-full mt-3">
                         <div class="flex group">
                             <div
@@ -1583,7 +1712,9 @@
                         komposzt bomlás helyett
                         rothadni fog, amely meggátolja a hasznos élőflóra kialakulását a komposztban.
                     </p>
-
+                    <div class="mt-2">
+                        <img class="rounded-lg mx-auto komp-img" src="{{ asset('images/tippek/image63-136.jpeg') }}"/>
+                    </div>
                     <div class="w-full mt-3">
                         <div class="flex group">
                             <div
@@ -1599,10 +1730,7 @@
                            mr-4
                            text-2xl
                             text-darkblue
-                          
-                           
                            font-semibold
-                           
                            ">
                                 04
                             </div>
@@ -1620,12 +1748,15 @@
                         javulását
                         és a korábbi elkészülését eredményezi.
                     </p>
-                    <p class="leading-7 ml-10">
+                    <p class="leading-7 ml-10 mt-2">
                         A komposzt nedvességtartalma fontos tényező. Túl nagy nedvesség rothadáshoz vezet, amelyet
                         szárazanyag hozzáadásával korrigálhatunk. Túl alacsony a bomlás lelassulásához vagy
                         megállásához,
                         amelyet öntözéssel gátolhatunk meg.
                     </p>
+                    <div class="mt-2">
+                        <img class="rounded-lg mx-auto komp-img" src="{{ asset('images/tippek/image64-138.jpeg') }}">
+                    </div>
                     <div class="w-full mt-3">
                         <div class="flex group">
                             <div
@@ -1641,10 +1772,7 @@
                        mr-4
                        text-2xl
                         text-darkblue
-                       
-                       
                        font-semibold
-                       
                        ">
                                 05
                             </div>
@@ -1660,14 +1788,21 @@
                         A komposzt összetételétől, a forgatás gyakoriságától és odafigyeléstől függően 3-12 hónap alatt
                         készül el.
                     </p>
-                    <p class="leading-7 ml-10">
+                    <p class="leading-7 ml-10 mt-2">
                         Felhasználható a termőtalaj javítására, kerti növények gondozására, de akár otthonunkon a
                         szobanövények cserepeiben is.
                     </p>
+                    <div class="grid grid-cols-2 gap-2 ml-10 mt-2">
+                        <div>
+                            <img class="rounded-lg komp-img" src="{{ asset('images/tippek/image65-140-2.jpeg') }}">
+                        </div>
+
+                        <div>
+                            <img class="rounded-lg komp-img" src="{{ asset('images/tippek/image66-142.jpeg') }}">
+                        </div>
+                    </div>
                 </div>
             </div>
-
         </div>
-
     </div>
 </x-guest-layout>
