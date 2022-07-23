@@ -21,3 +21,38 @@
 .rounded-bl-own {
     border-bottom-left-radius: 10rem;
 } 
+
+.head {
+    position: relative;
+    height: 150px;
+}
+
+.head-img img{
+    position: absolute;
+    height: 250px;
+    z-index: 0;
+    top: 0;
+}
+
+
+.head-img .title {
+    z-index: 2;
+    position: absolute;
+}
+
+.tips-container {
+    position: relative;
+}
+
+.komposzt-content {
+    position: relative;
+    z-index: 2;
+}
+
+.arrow-bg {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    position: absolute;
+    z-index: 0;
+}
