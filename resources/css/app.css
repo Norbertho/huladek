@@ -66,3 +66,17 @@
 .tips-container .komp-img {
     max-height: 210px;
 }
+
+.szelektiv-content {
+    position: relative;
+}
+
+.szelektiv-content img {
+    position: absolute;
+    z-index: -1;
+    height: 750px;
+    -ms-transform: rotate(-20deg); /* IE 9 */
+    transform: rotate(-20deg);
+    top: -450px;
+    left: -100px;
+}
