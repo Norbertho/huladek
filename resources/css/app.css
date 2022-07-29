@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 #szarny1 {
     animation: wheel 1s infinite linear;
     transform-origin: center;
@@ -20,20 +19,19 @@
 
 .rounded-bl-own {
     border-bottom-left-radius: 10rem;
-} 
+}
 
 .head {
     position: relative;
     height: 150px;
 }
 
-.head-img img{
+.head-img img {
     position: absolute;
     height: 250px;
     z-index: 0;
     top: 0;
 }
-
 
 .head-img .title {
     z-index: 2;
@@ -79,4 +77,183 @@
     transform: rotate(-20deg);
     top: -450px;
     left: -100px;
+}
+
+.slidecontainer {
+    width: 100%;
+    position: relative;
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 15px;
+    border-radius: 5px;
+    background: #252A44;
+    outline: none;
+    
+    -webkit-transition: 0.2s;
+    transition: opacity 0.2s;
+    position: absolute;
+}
+
+
+
+.slider:hover {
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #04aa6d;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #04aa6d;
+    cursor: pointer;
+}
+
+.disabled-thumb::-moz-range-thumb:disabled {
+    background: #252A44 !important;
+    opacity: 1;
+
+}
+
+.disabled-thumb::-webkit-slider-thumb:disabled {
+    background: #252A44 !important;
+    opacity: 1;
+}
+
+.disabled-thumb::-moz-range-thumb {
+    background: #252A44 !important;
+    opacity: 1;
+
+}
+
+.disabled-thumb::-webkit-slider-thumb {
+    background: #252A44 !important;
+    opacity: 1;
+}
+
+
+ /*papir 1-2 honap*/
+.left1 {
+    left: 0%;
+}
+
+/*szovet 6 honap*/
+.left2 {
+    left: 3%;
+}
+
+/*pamut 1-5 ev*/
+.left3 {
+    left: 10%;
+}
+
+/*tejesdoboz 5 ev*/
+.left4 {
+    left: 19.5%
+}
+
+/*fa 5-10 ev*/
+.left5 {
+    left: 29.5%;
+}
+
+/*nejlon 10-20 ev*/
+.left6 {
+    left: 34%;
+}
+
+/*pelenka 50-100 ev*/
+.left7 {
+    left: 39.5%;
+}
+
+/*aluminium 100-500 ev*/
+.left8 {
+    left: 49.5%;
+}
+
+/*muanyag 1 millio*/
+.left9 {
+    left: 89%;
+}
+
+/*uveg*/
+.left10 {
+    left: 97%;
+    font-size: xx-large;
+}
+
+#myRange {
+    margin-bottom: 30px;
+}
+
+#display {
+    position: relative;
+    min-height: 180px;
+    width: 150px;
+    background-color: #04aa6d;
+    opacity: 1;
+    transition: opacity .5s;
+    visibility: visible;
+    border-radius: 12px;
+    margin-top: 25px;
+}
+
+#slider_content_title {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+}
+
+#display.hide {
+    opacity: 0;
+}
+
+#slider_content_img {
+    object-fit: scale-down;
+    width: 130px;
+    max-height: 70%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+}
+
+.sliderLabel {
+    width: 100%;
+    position: relative;
+    height: 140px;
+    margin-right: 0 !important;
+    padding-right: 0 !important;
+}
+.sliderLabel .left1,
+.sliderLabel .left2,
+.sliderLabel .left3,
+.sliderLabel .left4,
+.sliderLabel .left5,
+.sliderLabel .left6,
+.sliderLabel .left7,
+.sliderLabel .left8,
+.sliderLabel .left9,
+ .sliderLabel .left10{
+    position: absolute;
+    z-index: -1;
+    margin-top: -2px;
+    transform-origin: 0 0;
+    transform: rotate(-50deg);
+    bottom: 0;
 }
