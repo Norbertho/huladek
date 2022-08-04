@@ -505,21 +505,21 @@ background-position: bottom right;">
                     </h2>
                      
                     <div class="sliderLabel">
-                        <div class="left1"><p>1-2 hónap</p></div>
-                        <div class="left2"><p>6 hónap</p></div>
-                        <div class="left3"><p>1-5 év</p></div>
-                        <div class="left4"><p>5 év</p></div>
-                        <div class="left5"><p>5-10 év</p></div>
-                        <div class="left6"><p>10-20 év</p></div>
-                        <div class="left7"><p>50-100 év</p></div>
-                        <div class="left8"><p>100-500 év</p></div>
-                        <div class="left9"><p>Akár 1 millió év</p></div>
-                        <div class="left10"><p>∞</p></div>
+                        <div class="left1 font-bold"><p>1-2 hónap</p></div>
+                        <div class="left2 font-bold"><p>6 hónap</p></div>
+                        <div class="left3 font-bold"><p>1-5 év</p></div>
+                        <div class="left4 font-bold"><p>5 év</p></div>
+                        <div class="left5 font-bold"><p>5-10 év</p></div>
+                        <div class="left6 font-bold"><p>10-20 év</p></div>
+                        <div class="left7 font-bold"><p>50-100 év</p></div>
+                        <div class="left8 font-bold"><p>100-500 év</p></div>
+                        <div class="left9 font-bold"><p>Akár 1 millió év</p></div>
+                        <div class="left10 font-bold"><p>∞</p></div>
                     </div>
                     
                     <div class="slidecontainer">
                         <input type="range" min="1" max="100" value="1" class="slider disabled-thumb" disabled>
-                        <input type="range" min="1" max="100" value="3" class="slider disabled-thumb" disabled>
+                        <input type="range" min="1" max="100" value="6" class="slider disabled-thumb" disabled>
                         <input type="range" min="1" max="100" value="10" class="slider disabled-thumb" disabled>
                         <input type="range" min="1" max="100" value="20" class="slider disabled-thumb" disabled>
                         <input type="range" min="1" max="100" value="30" class="slider disabled-thumb" disabled>
@@ -546,64 +546,92 @@ background-position: bottom right;">
                         output.classList.remove("hide");
                         contentTitle.innerHTML = "Papír";
                         output.style.cssText = 'margin-left: ' + this.value + '%';
-                        contentImg.src = '{{ asset('images/slider-contents/papir.jpeg') }}'
+                        contentImg.src = '{{ asset('images/slider-contents/papir.jpeg') }}'    
+                        
+                        slider.onclick = function() {
+                            if(this.value < 3) {
+                                this.value = 1;
+                            } else if (this.value < 8) {
+                                this.value = 6;
+                            } else if (this.value < 16) {
+                                this.value = 10;
+                            } else if (this.value < 26) {
+                                this.value = 20;
+                            } else if (this.value < 33) {
+                                this.value = 30;
+                            } else if (this.value < 38) {
+                                this.value = 34;
+                            } else if (this.value < 46) {
+                                this.value = 40;
+                            } else if (this.value < 76) {
+                                this.value = 50;
+                            } else if (this.value < 96) {
+                                this.value = 90;
+                            } else {
+                                this.value = 100;
+                            }
+                            getContent(this.value);
+                        }
 
                         slider.oninput = function() {
+                            getContent(this.value);
+                        }
 
-                            if (this.value == 1) {
+                        function getContent(value) {
+                            if (value == 1) {
                                 output.classList.remove("hide");
                                 contentTitle.innerHTML = "Papír";
-                                output.style.cssText = 'margin-left: ' + this.value + '%';
+                                output.style.cssText = 'margin-left: ' + value + '%';
                                 contentImg.src = '{{ asset('images/slider-contents/papir.jpeg') }}'
-                            } else if (this.value == 3) {
+                            } else if (value == 6) {
                                 output.classList.remove("hide");
                                 contentTitle.innerHTML = "Természetes alapú szövet";
-                                output.style.cssText = 'margin-left: ' + this.value + '%';
+                                output.style.cssText = 'margin-left: ' + value + '%';
                                 contentImg.src = '{{ asset('images/slider-contents/szovet.jpeg') }}'
-                            } else if (this.value == 10) {
+                            } else if (value == 10) {
                                 output.classList.remove("hide");
                                 contentTitle.innerHTML = "Pamutruha";
-                                output.style.cssText = 'margin-left: ' + (this.value - 6) + '%';
+                                output.style.cssText = 'margin-left: ' + (value - 6) + '%';
                                 contentImg.src = '{{ asset('images/slider-contents/pamut.jpeg') }}'
-                            } else if (this.value == 20) {
+                            } else if (value == 20) {
                                 output.classList.remove("hide");
                                 contentTitle.innerHTML = "Tejesdoboz";
-                                output.style.cssText = 'margin-left: ' + (this.value - 6) + '%';
+                                output.style.cssText = 'margin-left: ' + (value - 6) + '%';
                                 contentImg.src = '{{ asset('images/slider-contents/tejesdoboz.jpeg') }}'
-                            } else if (this.value == 30) {
+                            } else if (value == 30) {
                                 output.classList.remove("hide");
                                 contentTitle.innerHTML = "Fa";
-                                output.style.cssText = 'margin-left: ' + (this.value - 6) + '%';
+                                output.style.cssText = 'margin-left: ' + (value - 6) + '%';
                                 contentImg.src = '{{ asset('images/slider-contents/fa.jpeg') }}'
-                            } else if (this.value == 34) {
+                            } else if (value == 34) {
                                 output.classList.remove("hide");
                                 contentTitle.innerHTML = "Nejlonzacskó";
-                                output.style.cssText = 'margin-left: ' + (this.value - 6) + '%';
+                                output.style.cssText = 'margin-left: ' + (value - 6) + '%';
                                 contentImg.src = '{{ asset('images/slider-contents/zacsko.jpeg') }}'
-                            } else if (this.value == 40) {
+                            } else if (value == 40) {
                                 output.classList.remove("hide");
                                 contentTitle.innerHTML = "Pelenka";
-                                output.style.cssText = 'margin-left: ' + (this.value - 6) + '%';
+                                output.style.cssText = 'margin-left: ' + (value - 6) + '%';
                                 contentImg.src = '{{ asset('images/slider-contents/pelenka.jpeg') }}'
-                            } else if (this.value == 50) {
+                            } else if (value == 50) {
                                 output.classList.remove("hide");
                                 contentTitle.innerHTML = "Alumínium doboz";
-                                output.style.cssText = 'margin-left: ' + (this.value - 6) + '%';
+                                output.style.cssText = 'margin-left: ' + (value - 6) + '%';
                                 contentImg.src = '{{ asset('images/slider-contents/aluminium.jpeg') }}'
-                            } else if (this.value == 90) {
+                            } else if (value == 90) {
                                 output.classList.remove("hide");
                                 contentTitle.innerHTML = "Műanyagok";
-                                output.style.cssText = 'margin-left: ' + (this.value - 6) + '%';
+                                output.style.cssText = 'margin-left: ' + (value - 6) + '%';
                                 contentImg.src = '{{ asset('images/slider-contents/muanyag.jpeg') }}'
-                            } else if (this.value == 100) {
+                            } else if (value == 100) {
                                 output.classList.remove("hide");
                                 contentTitle.innerHTML = "Üveg </br>(nem bomlik le)";
-                                output.style.cssText = 'margin-left: ' + (this.value - 12) + '%';
+                                output.style.cssText = 'margin-left: ' + (value - 12) + '%';
                                 contentImg.src = '{{ asset('images/slider-contents/uveg.jpeg') }}'
                             } else {
                                 output.classList.add("hide");
                             }
-                        }
+                        } 
                     </script>
                 </div>
             </div>
