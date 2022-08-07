@@ -499,7 +499,7 @@ background-position: bottom right;">
                         az adott szintek milyen célokat fogalmaztak meg.
                     </p>
                 </div>
-                <div class="w-full mt-5">
+                <div class="w-full mt-16">
                     <h2 class="text-2xl font-semibold text-darkblue mt-12 mb-2">
                         Néhány háztartásokban előforduló termék lebomlási ideje:
                     </h2>
