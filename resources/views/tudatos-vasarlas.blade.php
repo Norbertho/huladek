@@ -1,22 +1,24 @@
 <x-guest-layout>
-    <div class="container mx-auto pt-24">
+    <div class="container mx-auto pt-24 leading-8 mb-20">
         <div class="flex flex-wrap items-center">
             <div class="w-6/12 pr-0">
-                <h1 class="font-bold text-3xl sm:text-4xl md:text-[40px] text-darkblue mb-6">
+                <h1 class="font-bold text-3xl sm:text-4xl md:text-[40px] text-basegreen mb-6">
                     Tudatos vásárlás
                 </h1>
 
-                <p class="base-text leading-7">
+                <p class="base-text ">
                     A tudatos vásárlás lényegében három rendkívül fontos üzenetet hordoz magában. Kerüljük a
                     túlfogyasztást, tájékozódjunk megfelelően a termékekről és keressük a számunkra és a környezet
                     épségének óvására legideálisabb. A Tudatos Vásárlók Egyesülete 12 pontot fogalmazott meg a megfelelő
                     termék kiválasztásának segítésére:
                 </p>
             </div>
+            <div class="w-6/12">
+                <img src="{{asset('images/tudatosvasarlas.jpg')}}" alt="">
+            </div>
         </div>
 
-        <div class="container mx-auto">
-            <div class="flex flex-wrap -mx-4 mb-6">
+            <div class="flex flex-wrap -mx-4 mt-10 mb-6">
                 <div class="w-full px-4 mt-2">
                     <h2 class="text-2xl font-semibold text-darkblue mb-2">
                         A tudatos vásárlók 12 pontja
@@ -46,7 +48,7 @@
                             1.
                         </div>
                         <div class="w-full items-center justify-center">
-                            <p class="text-base leading-relaxed items-center justify-center font-bold">
+                            <p class="text-lg  items-center justify-center font-bold">
                                 A pénzeddel szavazol!
                             </p>
                         </div>
@@ -84,7 +86,7 @@
                             2.
                         </div>
                         <div class="w-full items-center justify-center">
-                            <p class="text-base leading-relaxed items-center justify-center font-bold">
+                            <p class="text-lg  items-center justify-center font-bold">
                                 A szemét a legdrágább!
                             </p>
                         </div>
@@ -121,7 +123,7 @@
                             3.
                         </div>
                         <div class="w-full items-center justify-center">
-                            <p class="text-base leading-relaxed items-center justify-center font-bold">
+                            <p class="text-lg  items-center justify-center font-bold">
                                 Cetli
                             </p>
                         </div>
@@ -158,7 +160,7 @@
                             4.
                         </div>
                         <div class="w-full items-center justify-center">
-                            <p class="text-base leading-relaxed items-center justify-center font-bold">
+                            <p class="text-lg  items-center justify-center font-bold">
                                 Helyben
                             </p>
                         </div>
@@ -195,7 +197,7 @@
                             5.
                         </div>
                         <div class="w-full items-center justify-center">
-                            <p class="text-base leading-relaxed items-center justify-center font-bold">
+                            <p class="text-lg  items-center justify-center font-bold">
                                 Mennyi műanyagot viszel haza?
                             </p>
                         </div>
@@ -232,7 +234,7 @@
                             6.
                         </div>
                         <div class="w-full items-center justify-center">
-                            <p class="text-base leading-relaxed items-center justify-center font-bold">
+                            <p class="text-lg  items-center justify-center font-bold">
                                 Együnk klímabarát módon!
                             </p>
                         </div>
@@ -269,7 +271,7 @@
                             7.
                         </div>
                         <div class="w-full items-center justify-center">
-                            <p class="text-base leading-relaxed items-center justify-center font-bold">
+                            <p class="text-lg  items-center justify-center font-bold">
                                 Lássunk tisztán!
                             </p>
                         </div>
@@ -306,7 +308,7 @@
                             8.
                         </div>
                         <div class="w-full items-center justify-center">
-                            <p class="text-base leading-relaxed items-center justify-center font-bold">
+                            <p class="text-lg  items-center justify-center font-bold">
                                 Olvasd el a címkéket!
                             </p>
                         </div>
@@ -344,7 +346,7 @@
                             9.
                         </div>
                         <div class="w-full items-center justify-center">
-                            <p class="text-base leading-relaxed items-center justify-center font-bold">
+                            <p class="text-lg  items-center justify-center font-bold">
                                 Erőszakmentes jólét
                             </p>
                         </div>
@@ -381,7 +383,7 @@
                             10.
                         </div>
                         <div class="w-full items-center justify-center">
-                            <p class="text-base leading-relaxed items-center justify-center font-bold">
+                            <p class="text-lg  items-center justify-center font-bold">
                                 Tartós használat!
                             </p>
                         </div>
@@ -418,7 +420,7 @@
                             11.
                         </div>
                         <div class="w-full items-center justify-center">
-                            <p class="text-base leading-relaxed items-center justify-center font-bold">
+                            <p class="text-lg  items-center justify-center font-bold">
                                 Nem mindegy!
                             </p>
                         </div>
@@ -455,7 +457,7 @@
                             12.
                         </div>
                         <div class="w-full items-center justify-center">
-                            <p class="text-base leading-relaxed items-center justify-center font-bold">
+                            <p class="text-lg  items-center justify-center font-bold">
                                 Közösen könnyebb
                             </p>
                         </div>
@@ -466,18 +468,17 @@
                         Sose gondold, hogy céljaiddal egyedül vagy! Csatlakozzunk zöldülő közösségekhez, mert együtt kis
                         lépésekkel nagyon tudunk változtatni!
                     </p>
+
                 </div>
             </div>
-        </div>
+       
 
-        <p>
-            Forrás: Tudatos Vásárlók Egyesülete
-        </p>
+
 
 
         <div
-            class="w-7/12
-                    mt-6
+            class="w-full
+                    
                         mx-auto
                         bg-[#34D399] bg-opacity-[15%]
                         px-7
@@ -488,17 +489,23 @@
                         flex
                         border-l-[6px] border-[#34D399]
                         ">
-            <p class="text-base leading-7">
+            <p class="text-base ">
                 A listán 8. pontban szereplő „Olvasd el a címkéket!” megjegyzés különösen jelentős, hiszen a termékeket
                 ellepték a haszontalan, környezetvédelmi szempontból minősítési erővel nem rendelkező címkék. A
                 jelentéktelen ökocímkék elkerülése érdekében ezért a legmegbízhatóbb ökocímkék és címkék ismerete
                 elengedhetetlen:
             </p>
-        </div>
-        <div class="flex flex-wrap">
-            <div class="grid grid-cols-2">
 
-                <div class="relative rounded-xl overflow-auto p-6">
+        </div>
+        <p class="mt-8 text-basegreen mb-20">
+            Forrás: Tudatos Vásárlók Egyesülete
+        </p>
+        <div class="flex flex-wrap">
+           
+<div class="w-full">
+    <h3 class="py-3 px-5 bg-basegreen text-white font-medium">Termékeken található címkék.</h3>
+</div>
+                <div class="w-1/2 relative rounded-xl overflow-auto p-6">
                     <div
                         class="overflow-visible relative bg-white shadow-lg ring-1 ring-black/5 rounded-xl flex items-center gap-6 dark:bg-slate-800 dark:highlight-white/5">
                         <img class="absolute -left-6 w-24 h-24 rounded-full shadow-lg"
@@ -512,11 +519,11 @@
                                 újrahasznosítható vagy újra lesz hasznosítva.</strong>
                         </div>
                     </div>
-                </div>
-                <div class="absolute inset-0 pointer-events-none border border-black/5 rounded-xl dark:border-white/5">
+                
                 </div>
 
-                <div class="relative rounded-xl overflow-auto p-6">
+
+                <div class="w-1/2 relative rounded-xl overflow-auto p-6">
                     <div
                         class="overflow-visible relative bg-white shadow-lg ring-1 ring-black/5 rounded-xl flex items-center gap-6 dark:bg-slate-800 dark:highlight-white/5">
                         <img class="absolute -left-6 w-24 h-24 rounded-full shadow-lg"
@@ -531,11 +538,11 @@
                                 jelölés</strong>
                         </div>
                     </div>
-                </div>
-                <div class="absolute inset-0 pointer-events-none border border-black/5 rounded-xl dark:border-white/5">
+                
                 </div>
 
-                <div class="relative rounded-xl overflow-auto p-6">
+
+                <div class="w-1/2 relative rounded-xl overflow-auto p-6">
                     <div
                         class="overflow-visible relative bg-white shadow-lg ring-1 ring-black/5 rounded-xl flex items-center gap-6 dark:bg-slate-800 dark:highlight-white/5">
                         <img class="absolute -left-6 w-24 h-24 rounded-full shadow-lg"
@@ -546,11 +553,11 @@
                                 Környezetvédelmi Hivatal energiafelhasználási feltételeinek megfelelő termékek.</strong>
                         </div>
                     </div>
-                </div>
-                <div class="absolute inset-0 pointer-events-none border border-black/5 rounded-xl dark:border-white/5">
+                
                 </div>
 
-                <div class="relative rounded-xl overflow-auto p-6">
+
+                <div class="w-1/2 relative rounded-xl overflow-auto p-6">
                     <div
                         class="overflow-visible relative bg-white shadow-lg ring-1 ring-black/5 rounded-xl flex items-center gap-6 dark:bg-slate-800 dark:highlight-white/5">
                         <img class="absolute -left-6 w-24 h-24 rounded-full shadow-lg"
@@ -562,11 +569,11 @@
                                 jelöl.</strong>
                         </div>
                     </div>
-                </div>
-                <div class="absolute inset-0 pointer-events-none border border-black/5 rounded-xl dark:border-white/5">
+                
                 </div>
 
-                <div class="relative rounded-xl overflow-auto p-6">
+
+                <div class="w-1/2 relative rounded-xl overflow-auto p-6">
                     <div
                         class="overflow-visible relative bg-white shadow-lg ring-1 ring-black/5 rounded-xl flex items-center gap-6 dark:bg-slate-800 dark:highlight-white/5">
                         <img class="absolute -left-6 w-24 h-24 rounded-full shadow-lg"
@@ -578,11 +585,11 @@
                                 életre. </strong>
                         </div>
                     </div>
-                </div>
-                <div class="absolute inset-0 pointer-events-none border border-black/5 rounded-xl dark:border-white/5">
+                
                 </div>
 
-                <div class="relative rounded-xl overflow-auto p-6">
+
+                <div class="w-1/2 relative rounded-xl overflow-auto p-6">
                     <div
                         class="overflow-visible relative bg-white shadow-lg ring-1 ring-black/5 rounded-xl flex items-center gap-6 dark:bg-slate-800 dark:highlight-white/5">
                         <img class="absolute -left-6 w-24 h-24 rounded-full shadow-lg"
@@ -593,11 +600,11 @@
                                 Tanácsa: Felelős fenntartható erdőgazdálkodás jelképe.</strong>
                         </div>
                     </div>
-                </div>
-                <div class="absolute inset-0 pointer-events-none border border-black/5 rounded-xl dark:border-white/5">
+                
                 </div>
 
-                <div class="relative rounded-xl overflow-auto p-6">
+
+                <div class="w-1/2 relative rounded-xl overflow-auto p-6">
                     <div
                         class="overflow-visible relative bg-white shadow-lg ring-1 ring-black/5 rounded-xl flex items-center gap-6 dark:bg-slate-800 dark:highlight-white/5">
                         <img class="absolute -left-6 w-24 h-24 rounded-full shadow-lg"
@@ -610,11 +617,11 @@
                                 egészséges terméket vásárol.</strong>
                         </div>
                     </div>
-                </div>
-                <div class="absolute inset-0 pointer-events-none border border-black/5 rounded-xl dark:border-white/5">
+                
                 </div>
 
-                <div class="relative rounded-xl overflow-auto p-6">
+
+                <div class="w-1/2 relative rounded-xl overflow-auto p-6">
                     <div
                         class="overflow-visible relative bg-white shadow-lg ring-1 ring-black/5 rounded-xl flex items-center gap-6 dark:bg-slate-800 dark:highlight-white/5">
                         <img class="absolute -left-6 w-24 h-24 rounded-full shadow-lg"
@@ -627,11 +634,11 @@
                                 a termék vagy csomagolás újrahasznosított anyagtartalmát.</strong>
                         </div>
                     </div>
-                </div>
-                <div class="absolute inset-0 pointer-events-none border border-black/5 rounded-xl dark:border-white/5">
+                
                 </div>
 
-                <div class="relative rounded-xl overflow-auto p-6">
+
+                <div class="w-1/2 relative rounded-xl overflow-auto p-6">
                     <div
                         class="overflow-visible relative bg-white shadow-lg ring-1 ring-black/5 rounded-xl flex items-center gap-6 dark:bg-slate-800 dark:highlight-white/5">
                         <img class="absolute -left-6 w-24 h-24 rounded-full shadow-lg"
@@ -643,14 +650,14 @@
                                 amelyek képesek tevékenységükkel kiváltani az esőerdők pusztítását.</strong>
                         </div>
                     </div>
+                
                 </div>
-                <div class="absolute inset-0 pointer-events-none border border-black/5 rounded-xl dark:border-white/5">
-                </div>
 
 
 
 
-                <div class="relative rounded-xl overflow-auto p-6">
+
+                <div class="w-1/2 relative rounded-xl overflow-auto p-6">
                     <div
                         class="overflow-visible relative bg-white shadow-lg ring-1 ring-black/5 rounded-xl flex items-center gap-6 dark:bg-slate-800 dark:highlight-white/5">
                         <img class="absolute -left-6 w-24 h-24 rounded-full shadow-lg"
@@ -662,11 +669,11 @@
                                 méltányos áron és tisztességes munkakörülmények között állít elő terméket.</strong>
                         </div>
                     </div>
-                </div>
-                <div class="absolute inset-0 pointer-events-none border border-black/5 rounded-xl dark:border-white/5">
+                
                 </div>
 
-                <div class="relative rounded-xl overflow-auto p-6">
+
+                <div class="w-1/2 relative rounded-xl overflow-auto p-6">
                     <div
                         class="overflow-visible relative bg-white shadow-lg ring-1 ring-black/5 rounded-xl flex items-center gap-6 dark:bg-slate-800 dark:highlight-white/5">
                         <img class="absolute -left-6 w-24 h-24 rounded-full shadow-lg"
@@ -678,11 +685,11 @@
                                 technológia alkalmazását jelöli.</strong>
                         </div>
                     </div>
-                </div>
-                <div class="absolute inset-0 pointer-events-none border border-black/5 rounded-xl dark:border-white/5">
+                
                 </div>
 
-                <div class="relative rounded-xl overflow-auto p-6">
+
+                <div class="w-1/2 relative rounded-xl overflow-auto p-6">
                     <div
                         class="overflow-visible relative bg-white shadow-lg ring-1 ring-black/5 rounded-xl flex items-center gap-6 dark:bg-slate-800 dark:highlight-white/5">
                         <img class="absolute -left-6 w-24 h-24 rounded-full shadow-lg"
@@ -694,11 +701,11 @@
                                 termelnek.</strong>
                         </div>
                     </div>
-                </div>
-                <div class="absolute inset-0 pointer-events-none border border-black/5 rounded-xl dark:border-white/5">
+                
                 </div>
 
-                <div class="relative rounded-xl overflow-auto p-6">
+
+                <div class="w-1/2 relative rounded-xl overflow-auto p-6">
                     <div
                         class="overflow-visible relative shadow-lg ring-1 ring-black/5 bg-white rounded-xl flex items-center gap-6 dark:bg-slate-800 dark:highlight-white/5">
                         <img class="absolute -left-6 w-24 h-24 rounded-full shadow-lg"
@@ -710,11 +717,11 @@
                                 264//2004. Kormányrendeletben került bevezetésre.</strong>
                         </div>
                     </div>
-                </div>
-                <div class="absolute inset-0 pointer-events-none border border-black/5 rounded-xl dark:border-white/5">
+                
                 </div>
 
-                <div class="relative rounded-xl overflow-auto p-6">
+
+                <div class="w-1/2 relative rounded-xl overflow-auto p-6">
                     <div
                         class="overflow-visible relative bg-white shadow-lg ring-1 ring-black/5 rounded-xl flex items-center gap-6 dark:bg-slate-800 dark:highlight-white/5">
                         <img class="absolute -left-6 w-24 h-24 rounded-full shadow-lg"
@@ -725,11 +732,11 @@
                                 módon előállított/meghagyott élelmiszerek védelme.</strong>
                         </div>
                     </div>
-                </div>
-                <div class="absolute inset-0 pointer-events-none border border-black/5 rounded-xl dark:border-white/5">
+                
                 </div>
 
-                <div class="relative rounded-xl overflow-auto p-6">
+
+                <div class="w-1/2 relative rounded-xl overflow-auto p-6">
                     <div
                         class="overflow-visible relative bg-white shadow-lg ring-1 ring-black/5 rounded-xl flex items-center gap-6 dark:bg-slate-800 dark:highlight-white/5">
                         <img class="absolute -left-6 w-24 h-24 rounded-full shadow-lg"
@@ -742,11 +749,11 @@
                                 minősítés.</strong>
                         </div>
                     </div>
-                </div>
-                <div class="absolute inset-0 pointer-events-none border border-black/5 rounded-xl dark:border-white/5">
+                
                 </div>
 
-                <div class="relative rounded-xl overflow-auto p-6">
+
+                <div class="w-1/2 relative rounded-xl overflow-auto p-6">
                     <div
                         class="overflow-visible relative bg-white shadow-lg ring-1 ring-black/5 rounded-xl flex items-center gap-6 dark:bg-slate-800 dark:highlight-white/5">
                         <img class="absolute -left-6 w-24 h-24 rounded-full shadow-lg"
@@ -757,19 +764,19 @@
                                 védjegy.</strong>
                         </div>
                     </div>
+                
                 </div>
-                <div class="absolute inset-0 pointer-events-none border border-black/5 rounded-xl dark:border-white/5">
-                </div>
+
 
 
             </div>
             <div class="w-full mt-15">
                 <div class="pr-0 xl:pr-10">
-                    <h2 class="text-1xl font-semibold text-darkblue mt-12 mb-2">
+                    <h2 class="text-1xl font-bold text-darkblue mt-12 mb-2">
                         Energiacímke (érdemes feltüntetni a 2021-es változás miatt, de nem kapcsolódik direkt módon a
                         hulladék témakörhöz)
                     </h2>
-                    <p class="text-base leading-7">
+                    <p class="text-base leading-8">
                         Az energiacímke célja a berendezések energiahatékonyság szerinti besorolása A-tól G-ig. Az
                         elmúlt
                         évtizedben számos berendezés kategorizálása kibővült egészen az A+++ kategóriáig, ezért 2021-ben
@@ -781,8 +788,8 @@
 
                     <div class="container mx-auto">
                         <div class="flex flex-wrap -mx-4 mb-6">
-                            <div class="w-full px-4 mt-2">
-                                <p class="text-base leading-7 font-bold">
+                            <div class="w-full px-4 mt-12">
+                                <p class="text-base  font-bold">
                                     Eltérések a régi és új címkék között:
                                 </p>
                             </div>
@@ -808,7 +815,7 @@
                                  ">
                                     </div>
                                     <div class="w-full items-center justify-center">
-                                        <p class="text-base leading-relaxed items-center justify-center">
+                                        <p class="text-base  items-center justify-center">
                                             Kiegészítő adatokkal bővült a címke. pl.: a zajszint szerinti besorolás
                                         </p>
                                     </div>
@@ -837,7 +844,7 @@
                                  ">
                                     </div>
                                     <div class="w-full items-center justify-center">
-                                        <p class="text-base leading-relaxed items-center justify-center">
+                                        <p class="text-base  items-center justify-center">
                                             QR-kód a berendezéssel kapcsolatos további adatokhoz
                                         </p>
                                     </div>
@@ -866,7 +873,7 @@
                                  ">
                                     </div>
                                     <div class="w-full items-center justify-center">
-                                        <p class="text-base leading-relaxed items-center justify-center">
+                                        <p class="text-base  items-center justify-center">
                                             Eltérő számítás alkalmazása. pl.: Mosógép esetén 100 ciklus a
                                             számítási alap az éves
                                             fogyasztás
@@ -898,7 +905,7 @@
                                  ">
                                     </div>
                                     <div class="w-full items-center justify-center">
-                                        <p class="text-base leading-relaxed items-center justify-center">
+                                        <p class="text-base  items-center justify-center">
                                             Mosó- és szárítógépek esetén fel kell tüntetni a csak mosáshoz
                                             tartozó energiahatékonyságot
                                             is
@@ -907,13 +914,34 @@
                                 </div>
                             </div>
                         </div>
+<div class="flex flex-wrap">
+    <div class="w-1/2">
+        <img class="w-full" src="{{asset('images/energylabels.jpg')}}" alt="">
+                                </div>
+                                <div class="w-1/2 pl-12">
+                                    A képen látható energiacímkék rendre: <br> 
+                                        <ul class="list-inside list-disc">
+                                            <li>
+                                                hűtő-,
+                                            </li>
+                                            <li>
+                                                mosogató-,
+                                            </li>
+                                            <li>
+                                                mosógép-,
+                                            </li>
+                                            <li>
+                                                kijelzők-,
+                                            </li>
+                                        </ul>
+                                  
+                                </div>
+</div>
 
-                        <p>KEP!!!!!</p>
-                        <p>A képen látható energiacímkék rendre: hűtő-, mosó-, mosogató-, mosó- és
-                            szárítógép</p>
+
                     </div>
                 </div>
             </div>
-        </div>
+      
     </div>
 </x-guest-layout>

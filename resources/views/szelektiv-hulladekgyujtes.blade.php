@@ -1,9 +1,8 @@
 <x-guest-layout>
-    <div class="mx-auto pt-16 bg-basegreen">
+    <div class="mx-auto pt-16 bg-basegreen leading-8 tracking-wide">
         <div class="flex flex-wrap items-center container szelektiv-level">
-            <div class="szelektiv-content">
-                <img src="{{ asset('images/level.png') }}" />
-                <div class="w-6/12 pr-0">
+            
+                <div class="w-1/2 pr-0">
                     <h1 class="font-bold text-3xl sm:text-4xl md:text-[40px] text-white mb-6">
                         Szelektív hulladékgyűjtés
                     </h1>
@@ -15,7 +14,10 @@
                         is. A szelektív gyűjtésnek számos formája terjedt el. Ezek közül a legismertebbek:
                     </p>
                 </div>
-            </div>
+                <div class="w-1/2">
+                    <img class="rounded-tr-full" src="{{asset('images/szelektivimg.jpg')}}" alt="">
+                </div>
+            
         </div>
         <div class="container flex flex-wrap pb-16">
             <div class="w-full mt-6">
@@ -74,7 +76,7 @@
                     </div>
                 </div>
 
-                <div class="mx-auto w-8/12 mt-4">
+                <div class="mx-auto w-12/12 mt-4">
                     <div class="bg-black rounded-3xl p-8 text-white">
                         <p class="text-2xl font-semibold mb-2">
                             Akciószerű gyűjtőprogramok

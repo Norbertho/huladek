@@ -1,5 +1,5 @@
 <x-guest-layout>
-    <div class="bg-fixed"
+    <div class="bg-fixed leading-8"
         style="background-image: url(../images/hulladekkezeles-bg.svg); background-repeat: no-repeat;
 background-attachment: fixed;
 background-position: bottom right;">
@@ -7,7 +7,7 @@ background-position: bottom right;">
         <div class="container mx-auto py-24">
             <div class="flex flex-wrap items-center">
                 <div class="w-6/12 pr-0 xl:pr-10">
-                    <h1 class="font-bold text-3xl sm:text-4xl md:text-[40px] text-darkblue">
+                    <h1 class="font-bold text-3xl sm:text-4xl md:text-[40px] text-basegreen">
                         Hulladékról általánosságban
                     </h1>
                     <h2 class="text-2xl font-semibold text-darkblue mt-12 mb-2">
@@ -39,7 +39,7 @@ background-position: bottom right;">
     </div>
 
 
-    <div class="w-full mb-32">
+    <div class="w-full mb-32 leading-8">
         <div class="container mx-auto">
             <div class="flex flex-wrap">
 

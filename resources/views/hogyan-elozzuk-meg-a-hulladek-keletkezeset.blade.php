@@ -1,9 +1,9 @@
 <x-guest-layout>
-
+<div class="leading-8">
     <div class="bg-basegreen pt-16 pb-10 rounded-bl-own">
         <div class="container mx-auto">
             <h1 class="font-bold text-3xl sm:text-4xl md:text-[40px] text-darkblue mt-6 mb-12">
-                Hulladékról általánosságban
+                Hogyan előzzük meg a hulladék keletkezését?
             </h1>
             <div class="text-white text-lg">
                 <p class="mb-5">A hulladék keletkezésének megelőzésében a háztartások szerepe egyre jelentősebb. A
@@ -69,7 +69,7 @@
                              ">
                             </div>
                             <div class="w-full items-center justify-center">
-                                <p class="text-base leading-relaxed items-center justify-center font-bold">
+                                <p class="text-base items-center justify-center font-bold">
                                     Miért ügyeljek a kevesebb hulladéktermelésre? (máshogy megfogalmazva)
                                 </p>
                             </div>
@@ -107,7 +107,7 @@
                               ">
                             </div>
                             <div class="w-full items-center justify-center">
-                                <p class="text-base leading-relaxed items-center justify-center font-bold">
+                                <p class="text-base items-center justify-center font-bold">
                                     Miért én cselekedjek? Milyen pozitív hastással lehet ez rám nézve?
                                 </p>
                             </div>
@@ -146,7 +146,7 @@
                               ">
                             </div>
                             <div class="w-full items-center justify-center">
-                                <p class="text-base leading-relaxed items-center justify-center font-bold">
+                                <p class="text-base items-center justify-center font-bold">
                                     Hogyan kezdjek hozzá?
                                 </p>
                             </div>
@@ -198,7 +198,7 @@
                               ">
                             </div>
                             <div class="w-full items-center justify-center">
-                                <p class="text-base leading-relaxed items-center justify-center font-bold">
+                                <p class="text-base items-center justify-center font-bold">
                                     Mi változik azzal, hogy nem veszem meg a terméket?
                                 </p>
                             </div>
@@ -234,7 +234,7 @@
                               ">
                             </div>
                             <div class="w-full items-center justify-center">
-                                <p class="text-base leading-relaxed items-center justify-center font-bold">
+                                <p class="text-base items-center justify-center font-bold">
                                     Hogyan győződhetek meg arról, hogy sikeres, amit csinálok?
                                 </p>
                             </div>
@@ -295,7 +295,7 @@
                             1.
                         </div>
                         <div class="w-full items-center justify-center">
-                            <p class="text-base leading-relaxed items-center justify-center">
+                            <p class="text-base items-center justify-center">
                                 <span class="font-bold">
                                     Tudatos vásárlás:
                                 </span> A vásárlás előre megtervezett módon, a termékek alapos ismerete mellett
@@ -330,7 +330,7 @@
                             2.
                         </div>
                         <div class="w-full items-center justify-center">
-                            <p class="text-base leading-relaxed items-center justify-center">
+                            <p class="text-base items-center justify-center">
                                 <span class="font-bold">
                                     Élelmiszerpazarlás megelőzése:
                                 </span>Az élelmiszerpazarlás a hulladéktermelésben és a túlfogyasztásban az egyik
@@ -365,7 +365,7 @@
                             3.
                         </div>
                         <div class="w-full items-center justify-center">
-                            <p class="text-base leading-relaxed items-center justify-center">
+                            <p class="text-base items-center justify-center">
                                 Tartós termékek vásárlása (újratölthető elemek, bevásárlószatyrok, zsebkendők,
                                 törlőruhák) az egyszerhasználatos termékek helyett.
                             </p>
@@ -397,7 +397,7 @@
                             4.
                         </div>
                         <div class="w-full items-center justify-center">
-                            <p class="text-base leading-relaxed items-center justify-center">
+                            <p class="text-base items-center justify-center">
                                 Papírtermékek használatának csökkentése (fénymásolópapír, számlák, zacskók)
                             </p>
                         </div>
@@ -428,7 +428,7 @@
                             5.
                         </div>
                         <div class="w-full items-center justify-center">
-                            <p class="text-base leading-relaxed items-center justify-center">
+                            <p class="text-base items-center justify-center">
                                 Csomagolásmentes termékek vásárlása saját táskákkal
                             </p>
                         </div>
@@ -459,7 +459,7 @@
                             6.
                         </div>
                         <div class="w-full items-center justify-center">
-                            <p class="text-base leading-relaxed items-center justify-center">
+                            <p class="text-base items-center justify-center">
                                 Nagy kiszerelésű termékek (irodaszerek) vásárlása a csomagolóanyag minimalizálásáért
                             </p>
                         </div>
@@ -490,7 +490,7 @@
                             7.
                         </div>
                         <div class="w-full items-center justify-center">
-                            <p class="text-base leading-relaxed items-center justify-center">
+                            <p class="text-base items-center justify-center">
                                 Eszközök karbantartása a hosszabb élettartam érdekében
                             </p>
                         </div>
@@ -521,7 +521,7 @@
                             8.
                         </div>
                         <div class="w-full items-center justify-center">
-                            <p class="text-base leading-relaxed items-center justify-center">
+                            <p class="text-base items-center justify-center">
                                 Ritkán használt termékek (szerszámok, dekorációk) kölcsönkérése vagy kölcsönzése
                             </p>
                         </div>
@@ -552,7 +552,7 @@
                             9.
                         </div>
                         <div class="w-full items-center justify-center">
-                            <p class="text-base leading-relaxed items-center justify-center">
+                            <p class="text-base items-center justify-center">
                                 Régi termékek felújítása (bútorok újrakárpitozása)
                             </p>
                         </div>
@@ -610,7 +610,7 @@
                          ">
                         </div>
                         <div class="w-full items-center justify-center">
-                            <p class="text-base leading-relaxed items-center justify-center">
+                            <p class="text-base items-center justify-center">
                                 csomagolóanyagok és töltőanyagok (pl.: polisztirol) újrahasználata
                             </p>
                         </div>
@@ -640,7 +640,7 @@
                           ">
                         </div>
                         <div class="w-full items-center justify-center">
-                            <p class="text-base leading-relaxed items-center justify-center">
+                            <p class="text-base items-center justify-center">
                                 adok-veszek csoportok (facebook marketplace)
                             </p>
                         </div>
@@ -670,7 +670,7 @@
                           ">
                         </div>
                         <div class="w-full items-center justify-center">
-                            <p class="text-base leading-relaxed items-center justify-center">
+                            <p class="text-base items-center justify-center">
                                 ruhák, bútorok és elektronikai eszközök felajánlása jótékony célra (Ökumenikus
                                 Segélyszervezet)
                             </p>
@@ -701,7 +701,7 @@
                           ">
                         </div>
                         <div class="w-full items-center justify-center">
-                            <p class="text-base leading-relaxed items-center justify-center">
+                            <p class="text-base items-center justify-center">
                                 komposztálás
                             </p>
                         </div>
@@ -731,7 +731,7 @@
                           ">
                         </div>
                         <div class="w-full items-center justify-center">
-                            <p class="text-base leading-relaxed items-center justify-center">
+                            <p class="text-base items-center justify-center">
                                 kreatív újrafelhasználási módszerek (DIY)
                             </p>
                         </div>
@@ -766,4 +766,5 @@
             </div>
         </div>
     </div>
+</div>
 </x-guest-layout>
