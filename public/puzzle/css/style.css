@@ -1,159 +1,270 @@
-html, body {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    background: #333;
-    overflow: hidden;
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: #333;
+  overflow: hidden;
 }
 
 .html5-puzzle {
-    font-family: Helvetica, Arial, sans-serif;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    /********************/
-    /* board background */
-    /********************/
-    border: 1px solid #aaa;
+  font-family: Helvetica, Arial, sans-serif;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  /********************/
+  /* board background */
+  /********************/
+  border: 1px solid #aaa;
 }
 
 .html5-puzzle div,
 .html5-puzzle ul,
 .html5-puzzle li,
-.html5-puzzle canvas { margin: 0; padding: 0; }
+.html5-puzzle canvas {
+  margin: 0;
+  padding: 0;
+}
 
-.hide { display: none; }
+.hide {
+  display: none;
+}
 
-.clear { clear: both; }
+.clear {
+  clear: both;
+}
 
 /*== Jigsaw puzzle ==*/
 div#canvas-wrap {
-    width: 100%;
-    height: 100%;
-    background: #333;
+  width: 100%;
+  height: 100%;
+  background: #333;
 }
 
-canvas#canvas, canvas#buffer, canvas#image-preview {
-    position: absolute;
-    top: 45px;
-    left: 0;
+canvas#canvas,
+canvas#buffer,
+canvas#image-preview {
+  position: absolute;
+  top: 45px;
+  left: 0;
 }
 
-canvas#canvas { z-index: 100; }
+canvas#canvas {
+  z-index: 100;
+}
 
-.loading  #canvas-wrap { background: url(../images/loader.gif) no-repeat center; }
-.loading  canvas { visibility: hidden; }
+.loading #canvas-wrap {
+  background: url(../images/loader.gif) no-repeat center;
+}
+.loading canvas {
+  visibility: hidden;
+}
 
-canvas#buffer { z-index: 70; }
+canvas#buffer {
+  z-index: 70;
+}
 
 canvas#image-preview.show {
-    left: 50%;
-    opacity: .5;
-    z-index: 1000;
-    pointer-events: none;
+  left: 50%;
+  opacity: 0.5;
+  z-index: 1000;
+  pointer-events: none;
 }
 
 /*== Options bar ==*/
 div#game-options ul {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 div#game-options {
-    background: #fff;
-    z-index: 500;
-    top: 0;
-    left: -20px;
-    position: absolute;
-    border-bottom: 1px solid #000;
-    padding: 5px 10px 5px 30px;
-    width: 100%;
-    height: 32px;
-    -moz-box-shadow: 0 0 5px black;
-    -webkit-box-shadow: 0 0 5px black;
-    box-shadow: 0 0 5px black;
+  background: #fff;
+  z-index: 500;
+  top: 0;
+  left: -20px;
+  position: absolute;
+  border-bottom: 1px solid #000;
+  padding: 5px 10px 5px 30px;
+  width: 100%;
+  height: 32px;
+  -moz-box-shadow: 0 0 5px black;
+  -webkit-box-shadow: 0 0 5px black;
+  box-shadow: 0 0 5px black;
 }
 
-div#game-options ul li { 
-    float: left;
-    list-style: none;
-    line-height: 25px;
+div#game-options ul li {
+  float: left;
+  list-style: none;
+  line-height: 25px;
 }
 
 div#game-options ul li b {
-    margin: 0 10px;
+  margin: 0 10px;
 }
 
 /*== Clock ==*/
 #clock {
-    width: 60px;
-    display: block;
-    text-align: center;
+  width: 60px;
+  display: block;
+  text-align: center;
 }
 
 /*== Select ==*/
 div#game-options div.styled-select select {
-    outline: none;
-    background: transparent;
-    width: 125px;
-    padding: 5px;
-    font-size: 13px;
-    border: none;
-    height: 28px;
-    -webkit-appearance: none;
+  outline: none;
+  background: transparent;
+  width: 125px;
+  padding: 5px;
+  font-size: 13px;
+  border: none;
+  height: 28px;
+  -webkit-appearance: none;
 }
 
 div#game-options div.styled-select {
-    width: 100px;
-    height: 28px;
-    margin-right: 10px;
-    overflow: hidden;
-    background: url(../images/arrow.png) right no-repeat #f3f3f3;
-    border: 1px solid #333;
+  width: 100px;
+  height: 28px;
+  margin-right: 10px;
+  overflow: hidden;
+  background: url(../images/arrow.png) right no-repeat #f3f3f3;
+  border: 1px solid #333;
 }
 
 /*== Share buttons ==*/
-#share-twitter, #share-facebook {
-    text-indent: -10000px;
-    width: 32px;
-    height: 32px;
-    display: block;
-    cursor:pointer;
+#share-twitter,
+#share-facebook {
+  text-indent: -10000px;
+  width: 32px;
+  height: 32px;
+  display: block;
+  cursor: pointer;
 }
 
 /*== Crear puzzle ==*/
-#image-error { color: red; margin: 0 10px; display: none; }
-#dnd { display: none }
+#image-error {
+  color: red;
+  margin: 0 10px;
+  display: none;
+}
+#dnd {
+  display: none;
+}
 
 #game-options #create {
-    display: none;
-    right: 25px;
-    position: absolute;
+  display: none;
+  right: 25px;
+  position: absolute;
 }
 
 #game-options #create .add {
-    background: url(../images/plus.png)  10px 6px no-repeat #f3f3f3;
-    padding-left: 30px;
+  background: url(../images/plus.png) 10px 6px no-repeat #f3f3f3;
+  padding-left: 30px;
 }
 /*== Modal window ==*/
 
-div#congrat { text-align: center; }
-
-div#help {
-    font-size: 15px;
+div#congrat {
+  text-align: center;
 }
 
-div#help ul { margin-left: 10px; }
+div#help {
+  font-size: 15px;
+}
+
+div#help ul {
+  margin-left: 10px;
+}
 
 /*== mobile ==*/
 @media screen and (max-width: 960px) {
-    div#game-options { left: -30px; }
-    #clock { width: 50px; margin-left: }
-    #SHOW_EDGE, #SHOW_MIDDLE, #SHOW_ALL,#SHOW_FILEPICKER { display: none; }
+  div#game-options {
+    left: -30px;
+  }
+  #clock {
+    width: 50px;
+  }
+  #SHOW_EDGE,
+  #SHOW_MIDDLE,
+  #SHOW_ALL,
+  #SHOW_FILEPICKER {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 479px) {
-    #SHOW_HELP, #clock { display: none; }
-    #JIGSAW_SHUFFLE { margin-left: 15px; }
-    #SHOW_PREVIEW { margin-right: 10px; }
+  #SHOW_HELP,
+  #clock {
+    display: none;
+  }
+  #JIGSAW_SHUFFLE {
+    margin-left: 15px;
+  }
+  #SHOW_PREVIEW {
+    margin-right: 10px;
+  }
 }
 
+#help .menu ul {
+  list-style: none;
+  margin-left: 0;
+  padding: 0;
+}
+
+#help .menu ul li {
+  margin-left: 0;
+  padding-left: 5px;
+}
+
+#help .menu {
+  display: flex;
+  justify-content: center;
+}
+
+.openMenu {
+  position: absolute;
+  z-index: 4500;
+  background: rgba(0, 0, 0, 0.8);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;  
+  display: flex;
+  justify-content: center;
+}
+
+.contentMenu {
+  margin: auto;
+  margin-left: 28%;
+  overflow: hidden;
+  width: 100%;
+}
+
+.contentMenu > div {
+  width: 300px;
+  height: 350px;
+  float: left;
+  margin: 0 4px 0 0;
+  background-color: #f3f3f3;
+}
+
+.menuButtons p {
+  margin: 20px;
+}
+
+.openMenu .contentMenu ul {
+  width: 100%;
+  padding-top: 30px;
+  text-align: center;
+  list-style: none;
+  padding-left: 0;
+  margin: auto;
+}
+
+.openMenu .contentMenu ul li {
+  padding: 12px;
+}
+
+.imageDiv img {
+  margin: auto;
+  display: block;
+  width: 280px;
+  height: auto;
+}

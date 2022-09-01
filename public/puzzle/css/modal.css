@@ -25,7 +25,7 @@ div#overlay.hide { display: none; }
 div#modal-window {
     font-family: Helvetica, Arial, sans-serif;
     position: absolute;
-    top: -2px;
+    top: 50%;
     left: 50%;
     z-index: 1000;
     background: #fefefe;
